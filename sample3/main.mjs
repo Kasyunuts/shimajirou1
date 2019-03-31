@@ -25,7 +25,7 @@
  */
 async function requestGeoCoderAPI(query) {
   const response = await axios({
-    url: 'https://qwertyasfm-eval-test.apigee.net/yahoo_map/geocode/V1/geoCoder',
+    url: 'https://qwertyasfm-eval-test.apigee.net/Yahoo_map/geocode/V1/geoCoder',
     params: {
       query,
       output: 'json',
